@@ -1,24 +1,46 @@
-# QA_My_Portfolio
-QA Portfolio: test cases, bug reports, API &amp; SQL testing
+# QA Portfolio: REST API & SQL Testing
 
-Нижче — кілька прикладів із файлу `test_cases.xlsx` (повний список — у самому файлі).
+**Tech Stack & Tools:** Postman, REST API, JSON, SQL, Chrome DevTools, Git, MS Excel
 
-Test case 1:PUT-запит з невалідним ID (ID 4, якого немає в БД) — очікували 404, тест FAILED (знайдено баг)
-(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true)
-(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true)
+---
 
+### Приклади тест-кейсів
+*Повний список доступний у файлі [test_cases.xlsx](./test_cases.xlsx)*
 
-Test case 13:PUT-запит з ID "abc" (некоректний формат) — очікували і отримали 400 Bad Request, тест PASSED
-(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.1.png?raw=true)
-(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.1.png?raw=true)
-Повний список тест-кейсів — у файлі [test_cases.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-cases.xlsx).
+| ID | Опис тест-кейсу | Очікуваний результат | Статус | Докази |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true), [Скріншот 2](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true) |
+| **TC-13** | PUT-запит з ID "abc" (некоректний формат) | 400 Bad Request | **PASSED** | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.1.png?raw=true) |
 
+---
 
-Нижче — приклади оформлення багів із файлу `bug_reports.xlsx`.
+### Приклади баг-репортів
+*Повний список доступний у файлі [bug_reports.xlsx](./bug_reports.xlsx)*
 
-Bug report 1:GET-запит з неіснуючим ID повертає 400 Bad Request замість очікуваного 404 (Severity: Minor/High)
-(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.1.png?raw=true)
+| ID | Короткий опис (Summary) | Severity | Priority | Докази |
+| :--- | :--- | :--- | :--- | :--- |
+| **BR-1** | GET-запит з неіснуючим ID повертає 400 Bad Request замість 404 | Minor | High | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.1.png?raw=true) |
+| **BR-3** | PUT-запит з невалідним значенням gender повертає 200 OK замість 400 | Major | High | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.3.png?raw=true) |
 
-Bug report 3:PUT-запит з невалідним значенням gender повертає 200 OK замість очікуваного 400 Bad Request (Severity: Major/High)
-(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.3.png?raw=true)
-Повний список — у файлі [bug_reports.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-reports.xlsx).
+---
+
+### Приклади SQL-запитів
+Практика створення схем БД, маніпуляції даними (DDL/DML) та вибірки:
+
+```sql
+-- Пошук конкретного користувача за ім'ям та прізвищем
+SELECT * FROM PEOPLE 
+WHERE FIRST_NAME = 'Олексій' AND LAST_NAME = 'Марченко';
+
+-- Отримання списку прізвищ за алфавітом
+SELECT * FROM PEOPLE 
+ORDER BY LAST_NAME ASC;
+
+-- Об'єднання даних користувача з його контактами (JOIN)
+SELECT 
+    p.FIRST_NAME, 
+    p.LAST_NAME, 
+    pb.PHONE_NUMBER, 
+    pb.EMAIL_TEXT
+FROM PEOPLE p
+JOIN PHONE_BOOK pb ON p.PEOPLE_ID = pb.PEOPLE_ID;
