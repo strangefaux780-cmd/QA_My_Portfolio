@@ -9,8 +9,8 @@ Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
 
 | ID | Опис тест-кейсу | Очікуваний результат | Статус | Докази |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true), [Скріншот 2](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true) |
-| **TC-13** | PUT-запит з ID "abc" (некоректний формат) | 400 Bad Request | **PASSED** | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.png?raw=true),[Скріншот 2](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-3.png?raw=true)|
+| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/test-case1.png), [Скріншот 2](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/test-case1.1.png) |
+| **TC-13** | PUT-запит з ID "abc" (некоректний формат) | 400 Bad Request | **PASSED** | [Скріншот](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/Portfolio-2.png),[Скріншот 2](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/Portfolio-3.png)|
 
 ---
 
@@ -19,8 +19,8 @@ Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
 
 | ID | Короткий опис (Summary) | Severity | Priority | Докази |
 | :--- | :--- | :--- | :--- | :--- |
-| **BR-1** | GET-запит з неіснуючим ID повертає 400 Bad Request замість 404 | Minor | High | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.1.png?raw=true) |
-| **BR-3** | PUT-запит з невалідним значенням gender повертає 200 OK замість 400 | Major | High | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.3.png?raw=true) |
+| **BR-1** | GET-запит з неіснуючим ID повертає 400 Bad Request замість 404 | Minor | High | [Скріншот](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/bug-report.1.png) |
+| **BR-3** | PUT-запит з невалідним значенням gender повертає 200 OK замість 400 | Major | High | [Скріншот](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/bug-report.3.png) |
 
 ---
 
