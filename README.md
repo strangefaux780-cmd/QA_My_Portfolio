@@ -5,7 +5,7 @@
 ---
 
 ### Приклади тест-кейсів
-*Повний список доступний у файлі [test_cases.xlsx](.)*
+*Повний список доступний у файлі [test_cases.xlsx]()*
 
 | ID | Опис тест-кейсу | Очікуваний результат | Статус | Докази |
 | :--- | :--- | :--- | :--- | :--- |
@@ -15,7 +15,7 @@
 ---
 
 ### Приклади баг-репортів
-*Повний список доступний у файлі [bug_reports.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-reports.xlsx.)*
+*Повний список доступний у файлі [bug_reports.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-reports.xlsx)*
 
 | ID | Короткий опис (Summary) | Severity | Priority | Докази |
 | :--- | :--- | :--- | :--- | :--- |
