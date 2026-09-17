@@ -4,13 +4,13 @@ QA Portfolio: test cases, bug reports, API &amp; SQL testing
 
 Нижче — кілька прикладів із файлу `test_cases.xlsx` (повний список — у самому файлі).
 
-1 PUT-запит з невалідним ID повертає 404 Not Found
+Test case 1:PUT-запит з невалідним ID (ID 4, якого немає в БД) — очікували 404, тест FAILED (знайдено баг)
 https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true
 https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true
 
 
-**Приклад 2: [наприклад "Негативний сценарій — реєстрація з невалідним email"]**
-![Test case 2](сюди_посилання_на_скрін_2.png)
+Test case 13:PUT-запит з ID "abc" (некоректний формат) — очікували і отримали 400 Bad Request, тест PASSED
+
 Повний список тест-кейсів — у файлі [test_cases.xlsx](посилання_на_файл).
 
 ## Приклади баг-репортів
