@@ -11,7 +11,8 @@ https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?r
 
 Test case 13:PUT-запит з ID "abc" (некоректний формат) — очікували і отримали 400 Bad Request, тест PASSED
 https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.1.png?raw=true
-Повний список тест-кейсів — у файлі [test_cases.xlsx](посилання_на_файл).
+https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.1.png?raw=true
+Повний список тест-кейсів — у файлі [test_cases.xlsx]().
 
 ## Приклади баг-репортів
 
