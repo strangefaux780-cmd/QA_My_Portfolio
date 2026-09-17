@@ -1,6 +1,6 @@
 # QA Portfolio: REST API & SQL Testing
 
-Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
+**Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
 
 ---
 
