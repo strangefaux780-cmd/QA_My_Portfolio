@@ -9,8 +9,8 @@ Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
 
 | ID | Опис тест-кейсу | Очікуваний результат | Статус | Докази |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true), [Скріншот 2](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true) |
-| **TC-13** | PUT-запит з ID "abc" (некоректний формат) | 400 Bad Request | **PASSED** | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.1.png?raw=true) |
+| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true), [Скріншот 2](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true) |
+| **TC-13** | PUT-запит з ID "abc" (некоректний формат) | 400 Bad Request | **PASSED** | [Скріншот](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-2.png?raw=true),[Скріншот 2](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/Portfolio-3.png?raw=true)|
 
 ---
 
