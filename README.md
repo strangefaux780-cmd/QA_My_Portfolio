@@ -9,7 +9,7 @@ Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
 
 | ID | Опис тест-кейсу | Очікуваний результат | Статус | Докази |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/test-case1.png), [Скріншот 2](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/test-case1.1.png) |
+| **TC-1** | PUT-запит з невалідним ID (ID 4, якого немає в БД) | 404 Not Found | **FAILED** | [Скріншот 1](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/test-case1.1.png), [Скріншот 2](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/test-case1.png) |
 | **TC-13** | PUT-запит з ID "abc" (некоректний формат) | 400 Bad Request | **PASSED** | [Скріншот](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/Portfolio-2.png),[Скріншот 2](https://raw.githubusercontent.com/strangefaux780-cmd/QA_My_Portfolio/refs/heads/main/Portfolio-3.png)|
 
 ---
