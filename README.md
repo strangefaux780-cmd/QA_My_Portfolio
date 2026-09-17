@@ -1,11 +1,11 @@
 # QA Portfolio: REST API & SQL Testing
 
-**Tech Stack & Tools:** Postman, REST API, JSON, SQL, Chrome DevTools, Git, MS Excel
+Tech Stack & Tools:** Postman, REST API, SQL, Chrome DevTools,MS Excel
 
 ---
 
-### Приклади тест-кейсів
-*Повний список доступний у файлі [test_cases.xlsx]()*
+Приклади тест-кейсів
+Повний список доступний у файлі [test_cases.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-cases.xlsx)*
 
 | ID | Опис тест-кейсу | Очікуваний результат | Статус | Докази |
 | :--- | :--- | :--- | :--- | :--- |
@@ -14,8 +14,8 @@
 
 ---
 
-### Приклади баг-репортів
-*Повний список доступний у файлі [bug_reports.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-reports.xlsx)*
+Приклади баг-репортів
+Повний список доступний у файлі [bug_reports.xlsx](https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-reports.xlsx)
 
 | ID | Короткий опис (Summary) | Severity | Priority | Докази |
 | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@
 
 ---
 
-### Приклади SQL-запитів
+Приклади SQL-запитів
 Практика створення схем БД, маніпуляції даними (DDL/DML) та вибірки:
 
 ```sql
