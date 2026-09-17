@@ -6,6 +6,7 @@ QA Portfolio: test cases, bug reports, API &amp; SQL testing
 
 1 PUT-запит з невалідним ID повертає 404 Not Found
 https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.1.png?raw=true
+https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/test-case1.png?raw=true
 
 
 **Приклад 2: [наприклад "Негативний сценарій — реєстрація з невалідним email"]**
