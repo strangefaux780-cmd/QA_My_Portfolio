@@ -20,5 +20,5 @@ Bug report 1:GET-запит з неіснуючим ID повертає 400 Bad 
 (https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.1.png?raw=true)
 
 Bug report 3:PUT-запит з невалідним значенням gender повертає 200 OK замість очікуваного 400 Bad Request (Severity: Major/High)
-
+(https://github.com/strangefaux780-cmd/QA_My_Portfolio/blob/main/bug-report.3.png?raw=true)
 Повний список — у файлі [bug_reports.xlsx](посилання_на_файл).
